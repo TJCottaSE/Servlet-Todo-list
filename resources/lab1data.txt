@@ -1,0 +1,15 @@
+Laundry
+Wash and Dry Clothes
+12
+1 hour
+John
+Laundry 2
+Wash Shirts
+14
+1 hour
+Lisa
+Laundry 3
+Dry Pants
+7
+2 hours
+Lisa

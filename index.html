@@ -1,0 +1,28 @@
+<HTML>
+<HEAD><TITLE>A Sample Form</TITLE></HEAD>
+<BODY BGCOLOR="FDF5E6">
+<H2 ALIGN="CENTER">A Simple To-Do List</H2>
+
+<FORM ACTION="./tasks" METHOD="POST">
+	<CENTER>
+	Name of a "To Do" Task:
+	<INPUT TYPE="TEXT" NAME="taskName" VALUE="Laundry"><br>
+	Description of the task:
+	<INPUT TYPE="TEXT" NAME="taskDesc" VALUE="Wash and Dry Clothes"><br>
+	Check the days of the week this should be performed.<br>
+	<INPUT TYPE="CHECKBOX" NAME="monday">Monday
+	<INPUT TYPE="CHECKBOX" NAME="tuesday">Tuesday
+	<INPUT TYPE="CHECKBOX" NAME="wednesday">Wednesday
+	<INPUT TYPE="CHECKBOX" NAME="thursday">Thursday
+	<INPUT TYPE="CHECKBOX" NAME="friday">Friday
+	<INPUT TYPE="CHECKBOX" NAME="saturday">Saturday
+	<INPUT TYPE="CHECKBOX" NAME="sunday">Sunday<br>
+	Estimate of how long the task will take:
+	<INPUT TYPE="TEXT" NAME="duration" VALUE="1 hour"><br>
+	Name of person the task is assigned to:
+	<INPUT TYPE="TEXT" NAME="custom" VALUE="John"><br>
+	<INPUT TYPE="SUBMIT">
+	</CENTER>
+</FORM>
+</BODY>
+</HTML>
